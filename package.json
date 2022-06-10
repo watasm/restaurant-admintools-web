@@ -8,7 +8,7 @@
     "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
     "build": "next build",
     "start": "next start",
-    "heroku:deploy": "git push heroku master",
+    "heroku:deploy": "git push heroku main:master",
     "heroku:restart": "heroku restart",
     "heroku:rebuild": "git commit --allow-empty -m \"empty commit\" && yarn heroku:deploy"
   },
